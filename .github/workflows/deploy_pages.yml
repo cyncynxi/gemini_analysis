@@ -28,9 +28,9 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # 替换为了最新的标准 Pages 上传组件
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # 部署根目录下的 index.html
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
