@@ -1,44 +1,18 @@
 {
-    "materials": [
-        {
-            "id": 1,
-            "video_url": "https://example.com/video1.mp4",
-            "celeb": "小明",
-            "cat2": "美妆",
-            "ai_analysis": {
-                "hook_analysis": "明星开场直入痛点，用一句话触发好奇心",
-                "five_steps": {
-                    "step1_intro": "极速切入产品场景，黄金3s留人",
-                    "step2_painpoint": "抓住用户痛点（干燥/毛孔/暗沉）",
-                    "step3_display": "对比实测展示显著效果",
-                    "step4_trust": "明星亲测 + 权威背书",
-                    "step5_action": "限时福利引导下单"
-                },
-                "tags": [
-                    "明星极速切入",
-                    "对比实测",
-                    "限时促单"
-                ]
-            }
-        },
-        {
-            "id": 2,
-            "video_url": "https://example.com/video2.mp4",
-            "celeb": "小红",
-            "cat2": "健康",
-            "ai_analysis": {
-                "hook_analysis": "智能解析请求超时，请检查视频链接可访问性",
-                "five_steps": {
-                    "step1_intro": "-",
-                    "step2_painpoint": "-",
-                    "step3_display": "-",
-                    "step4_trust": "-",
-                    "step5_action": "-"
-                },
-                "tags": [
-                    "解析待重试"
-                ]
-            }
-        }
+   [
+  {
+    "url": "https://adsmind.gdtimg.com/ads_svp_video__0bc37ialoaaaayakeyzibjvbv6qew75abn2a.f0.mp4",
+    "cost": 471337.5,
+    "ctr": 2.6,
+    "cvr": 23.0,
+    "v3s": 38.3
+  },
+  {
+    "url": "https://adsmind.gdtimg.com/ads_svp_video__0b53gaadwaaaeqachebf7bvbumaehmyaao2a.f0.mp4",
+    "cost": 403760.92,
+    "ctr": 0.8,
+    "cvr": 3.7,
+    "v3s": 70.6
+  }
     ]
 }
