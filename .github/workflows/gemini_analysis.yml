@@ -1,0 +1,41 @@
+name: Gemini Material Auto-Analysis
+
+on:
+  push:
+    paths:
+      - 'materials.json'  # 当你修改或上传 materials.json 时自动触发分析
+
+permissions:
+  contents: write  # 赋予机器人向你的仓库写回数据的权限
+
+jobs:
+  analyze_and_render:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 1. 拉取仓库代码
+      uses: actions/checkout@v4
+
+    - name: 2. 安装 Python 环境
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: 3. 安装 Google Gemini 官方依赖
+      run: |
+        pip install google-generativeai
+
+    - name: 4. 执行 Gemini 智能拆解脚本
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}  # 从 GitHub Secrets 中读取密钥
+      run: |
+        python analyze.py
+
+    - name: 5. 自动提交分析结果并推送到网页
+      run: |
+        git config --global user.name "Gemini-Workflow-Bot"
+        git config --global user.email "actions@github.com"
+        git add -A
+        # 只有在文件有变动时才提交，防止死循环
+        git diff-index --quiet HEAD || git commit -m "🪄 智能AI更新：自动同步素材脚本与爆量特征拆解"
+        git push

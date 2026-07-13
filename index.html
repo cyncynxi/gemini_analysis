@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Materials Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background:#f7f7f8 }
+    .material-card { background:#fff; border-radius:8px; padding:16px; margin-bottom:12px; box-shadow:0 1px 3px rgba(0,0,0,0.08) }
+    .tags { margin-top:8px }
+    .tag { display:inline-block; background:#eef; color:#226; padding:4px 8px; border-radius:12px; margin-right:6px; font-size:12px }
+    .five-steps-list { padding-left:18px }
+  </style>
+</head>
+<body>
+  <h2>素材 AI 拆解演示</h2>
+  <div id="materials"></div>
+
+  <script>
+    // 当 fetch 本地文件失败（file://）时，使用内置示例作为回退
+    window.__SAMPLE_MATERIALS__ = {
+      materials: []
+    };
+
+    async function loadMaterials() {
+      try {
+        const res = await fetch('materials.json');
+        if (!res.ok) throw new Error('fetch failed');
+        const data = await res.json();
+        renderMaterials(data.materials || []);
+      } catch (e) {
+        console.warn('无法通过 fetch 加载 materials.json，使用内置示例。', e);
+        renderMaterials(window.__SAMPLE_MATERIALS__.materials);
+      }
+    }
+
+    function renderMaterials(materials) {
+      const container = document.getElementById('materials');
+      container.innerHTML = '';
+
+      if (!materials.length) {
+        container.innerHTML = '<p>暂无素材（请确保仓库根目录存在 materials.json 或通过 HTTP 服务访问本页）。</p>';
+        return;
+      }
+
+      materials.forEach(item => {
+        const ai = item.ai_analysis || {
+          hook_analysis: '暂无 AI 分析，请等待流水线运行',
+          five_steps: { step1_intro: '-', step2_painpoint: '-', step3_display: '-', step4_trust: '-', step5_action: '-' },
+          tags: ['等待分析']
+        };
+
+        const tagsHtml = (ai.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
+
+        const cardHtml = `
+          <div class="material-card">
+            <div><strong>素材ID：</strong>${item.id} &nbsp; <strong>达人：</strong>${item.celeb} &nbsp; <strong>类目：</strong>${item.cat2}</div>
+            <div style="margin-top:8px"><a href="${item.video_url}" target="_blank">🔗 查看原素材</a></div>
+
+            <div class="insight-box" style="margin-top:12px">
+              <h4>🪄 Gemini 智能黄金5段式拆解</h4>
+              <ul class="five-steps-list">
+                <li><strong>引流：</strong>${escapeHtml(ai.five_steps.step1_intro)}</li>
+                <li><strong>痛点：</strong>${escapeHtml(ai.five_steps.step2_painpoint)}</li>
+                <li><strong>展示：</strong>${escapeHtml(ai.five_steps.step3_display)}</li>
+                <li><strong>信任：</strong>${escapeHtml(ai.five_steps.step4_trust)}</li>
+                <li><strong>行动：</strong>${escapeHtml(ai.five_steps.step5_action)}</li>
+              </ul>
+              <div class="hook-section"><strong>🪝 黄金前3秒钩子：</strong> ${escapeHtml(ai.hook_analysis)}</div>
+              <div class="tags" style="margin-top:8px">${tagsHtml}</div>
+            </div>
+          </div>
+        `;
+
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = cardHtml;
+        container.appendChild(wrapper);
+      });
+    }
+
+    function escapeHtml(s) {
+      if (!s && s !== 0) return '';
+      return String(s).replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"}[c]; });
+    }
+
+    // 启动加载
+    loadMaterials();
+  </script>
+</body>
+</html>
