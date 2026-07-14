@@ -18,8 +18,8 @@ except Exception as e:
     print(f"❌ 读取 materials.json 失败: {e}")
     exit(1)
 
-# 假设你的 materials.json 格式为：{"materials": [{"id": 1, "video_url": "...", "celeb": "冯唐"}, ...]}
-materials_list = data.get("materials", [])
+# 直接把整个 JSON 数组赋值给 materials_list
+materials_list = data
 
 # 3. 筛选出“未处理”或“缺少AI拆解”的素材（避免重复调用浪费Token）
 pending_materials = [m for m in materials_list if "ai_analysis" not in m or not m["ai_analysis"]]
