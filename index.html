@@ -16,7 +16,7 @@
   <h2>素材 AI 拆解演示</h2>
   <div id="materials"></div>
 
-  <script>
+ <script>
     // 当 fetch 本地文件失败（file://）时，使用内置示例作为回退
     window.__SAMPLE_MATERIALS__ = {
       materials: []
@@ -24,10 +24,15 @@
 
     async function loadMaterials() {
       try {
-        const res = await fetch('materials.json');
+        // 🔑 优化1：加入时间戳防止 GitHub Pages 强缓存 json 文件
+        const jsonUrl = `materials.json?t=${new Date().getTime()}`;
+        const res = await fetch(jsonUrl);
         if (!res.ok) throw new Error('fetch failed');
         const data = await res.json();
-        renderMaterials(data.materials || []);
+        
+        // 🔑 优化2：兼容两种格式。如果 data 是数组，直接用；如果是对象，取 data.materials
+        const finalData = Array.isArray(data) ? data : (data.materials || []);
+        renderMaterials(finalData);
       } catch (e) {
         console.warn('无法通过 fetch 加载 materials.json，使用内置示例。', e);
         renderMaterials(window.__SAMPLE_MATERIALS__.materials);
@@ -38,12 +43,17 @@
       const container = document.getElementById('materials');
       container.innerHTML = '';
 
-      if (!materials.length) {
-        container.innerHTML = '<p>暂无素材（请确保仓库根目录存在 materials.json 或通过 HTTP 服务访问本页）。</p>';
+      if (!materials || !materials.length) {
+        container.innerHTML = '<p>暂无素材（请确保仓库根目录存在 materials.json 且包含数据，或通过 HTTP 服务访问本页）。</p>';
         return;
       }
 
       materials.forEach(item => {
+        // 兼容不同的字段命名
+        const itemId = item.id || item.material_id || '未知ID';
+        const celeb = item.celeb || item.celebrity || '未知达人';
+        const cat2 = item.cat2 || item.sub_segment || '未知类目';
+
         const ai = item.ai_analysis || {
           hook_analysis: '暂无 AI 分析，请等待流水线运行',
           five_steps: { step1_intro: '-', step2_painpoint: '-', step3_display: '-', step4_trust: '-', step5_action: '-' },
@@ -54,17 +64,17 @@
 
         const cardHtml = `
           <div class="material-card">
-            <div><strong>素材ID：</strong>${item.id} &nbsp; <strong>达人：</strong>${item.celeb} &nbsp; <strong>类目：</strong>${item.cat2}</div>
-            <div style="margin-top:8px"><a href="${item.video_url}" target="_blank">🔗 查看原素材</a></div>
+            <div><strong>素材ID：</strong>${itemId} &nbsp; <strong>达人：</strong>${celeb} &nbsp; <strong>类目：</strong>${cat2}</div>
+            ${item.video_url ? `<div style="margin-top:8px"><a href="${item.video_url}" target="_blank">🔗 查看原素材</a></div>` : ''}
 
             <div class="insight-box" style="margin-top:12px">
               <h4>🪄 Gemini 智能黄金5段式拆解</h4>
               <ul class="five-steps-list">
-                <li><strong>引流：</strong>${escapeHtml(ai.five_steps.step1_intro)}</li>
-                <li><strong>痛点：</strong>${escapeHtml(ai.five_steps.step2_painpoint)}</li>
-                <li><strong>展示：</strong>${escapeHtml(ai.five_steps.step3_display)}</li>
-                <li><strong>信任：</strong>${escapeHtml(ai.five_steps.step4_trust)}</li>
-                <li><strong>行动：</strong>${escapeHtml(ai.five_steps.step5_action)}</li>
+                <li><strong>引流：</strong>${escapeHtml(ai.five_steps?.step1_intro)}</li>
+                <li><strong>痛点：</strong>${escapeHtml(ai.five_steps?.step2_painpoint)}</li>
+                <li><strong>展示：</strong>${escapeHtml(ai.five_steps?.step3_display)}</li>
+                <li><strong>信任：</strong>${escapeHtml(ai.five_steps?.step4_trust)}</li>
+                <li><strong>行动：</strong>${escapeHtml(ai.five_steps?.step5_action)}</li>
               </ul>
               <div class="hook-section"><strong>🪝 黄金前3秒钩子：</strong> ${escapeHtml(ai.hook_analysis)}</div>
               <div class="tags" style="margin-top:8px">${tagsHtml}</div>
