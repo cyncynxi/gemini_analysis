@@ -14,6 +14,7 @@ import os
 import sys
 import tempfile
 import threading
+import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -135,7 +136,7 @@ _retry_decorator = retry(
     retry=retry_if_exception_type(Exception),
     stop=stop_after_attempt(MAX_RETRIES),
     wait=wait_exponential(multiplier=2, min=2, max=30),  # 4s, 8s, 16s...
-    before_sleep=before_sleep_log(sys.stderr, log_level=10),
+    before_sleep=before_sleep_log(logging.getLogger("GeminiRetry"), log_level=logging.WARNING), # 🔑 传入真正的 Logger 对象
     reraise=True,
 )
 
