@@ -24,7 +24,7 @@ jobs:
 
     - name: 3. 安装 Google Gemini 官方依赖
       run: |
-        pip install google-generativeai
+          pip install google-generativeai tenacity pydantic
 
     - name: 4. 执行 Gemini 智能拆解脚本
       env:
