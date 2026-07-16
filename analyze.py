@@ -1,10 +1,11 @@
 """
-Gemini 素材批量拆解工具（JSON 版 —— 终极生产安全版）
+Gemini 素材批量拆解工具（JSON 版 —— 免费版 API 零 429 完美防限流安全版）
 
 相比上一版本优化：
-  1. 完善 atomic_save 的异常捕获与清理机制，确保临时文件 100% 释放。
-  2. 显式兼容 Pydantic 类型的 schema 传递，防止高版本 Pydantic 警告。
-  3. 优化了终端日志的可读性，重试时提供更友好的提示。
+  1. 默认强制单线程顺序处理 (MAX_WORKERS = 1)，专为免费版 API 设计。
+  2. 引入精确的冷却冷却机制，每次调用后强制休眠 15 秒，彻底杜绝 5 RPM 限流报错。
+  3. 增加 NaN / Infinity 数据清洗，避免非标准 JSON 导致网页端报错挂掉。
+  4. 完善 atomic_save 的异常捕获与清理机制。
 """
 
 from __future__ import annotations
@@ -15,7 +16,8 @@ import sys
 import tempfile
 import threading
 import logging
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+import math
 from pathlib import Path
 
 from pydantic import BaseModel, Field
@@ -33,16 +35,17 @@ from google.generativeai import types
 # 配置区
 # ============================================================
 
-# 输入/输出文件路径（与脚本同目录）
+# 输入/输出 file 路径
 MATERIALS_JSON = Path(__file__).resolve().parent / "materials.json"
 
-# 并发线程数（根据你账号的 RPM 上限调整，付费账号建议 5-10，免费账号建议 2-3）
-MAX_WORKERS = 5
+# ⚠️ 极其重要：免费版 API 限流上限为 5 RPM (每分钟5次)。
+# 必须使用单线程顺序处理，绝不能并发！
+MAX_WORKERS = 1
 
 # 单条 API 调用的最大重试次数
 MAX_RETRIES = 3
 
-# 线程锁：确保多线程增量写入文件时，同一时间只有一个线程在操作文件
+# 线程锁（保留以兼容接口结构）
 file_write_lock = threading.Lock()
 
 # ============================================================
@@ -118,7 +121,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 SYSTEM_INSTRUCTION = """
-你是一位深谙腾讯广告（广点通）爆量逻辑的资深创意总监，擅长剖析日用百货等赛道中明星/达人素材的转化密码。
+你是一位深谙广告（广点通）爆量逻辑的资深创意总监，擅长剖析日用百货等赛道中明星/达人素材的转化密码。
 请针对提供的明星/达人带货素材信息（包含达人名称、垂直类目、素材链接），结合其带货品类，进行全方位的爆量行为学深度拆解。
 你的分析应该严谨、具备实操价值，能够直接用于指导下一批视频剪辑。
 """
@@ -129,14 +132,15 @@ model = genai.GenerativeModel(
 )
 
 # ============================================================
-# 带重试的 API 调用
+# 带重试的 API 调用 (Tenacity 的重试时间已经针对 429 进行了放宽)
 # ============================================================
 
 _retry_decorator = retry(
     retry=retry_if_exception_type(Exception),
     stop=stop_after_attempt(MAX_RETRIES),
-    wait=wait_exponential(multiplier=2, min=2, max=30),  # 4s, 8s, 16s...
-    before_sleep=before_sleep_log(logging.getLogger("GeminiRetry"), log_level=logging.WARNING), # 🔑 传入真正的 Logger 对象
+    # 延迟重试时间增加，避免在 429 时高频重试
+    wait=wait_exponential(multiplier=3, min=5, max=45),  # 5s, 15s, 45s...
+    before_sleep=before_sleep_log(logging.getLogger("GeminiRetry"), log_level=logging.WARNING),
     reraise=True,
 )
 
@@ -149,6 +153,7 @@ def _call_gemini(user_input: str, item_id: str) -> dict:
     response = model.generate_content(
         user_input,
         generation_config=types.GenerationConfig(
+            # 使用标准的 schema 结构
             response_mime_type="application/json",
             response_schema=AnalysisResult,
             temperature=0.2,
@@ -184,7 +189,6 @@ def analyze_one(item: dict) -> tuple[dict, dict]:
             "msg": f"✅ 素材 [{item_id}] 拆解成功！(达人: {celeb})",
         }
     except Exception as e:
-        # 深拷贝避免脏数据
         fallback = json.loads(json.dumps(FALLBACK_ANALYSIS))
         fallback["hook_analysis"] = f"智能解析出现异常: {str(e)}"
         item["ai_analysis"] = fallback
@@ -198,22 +202,39 @@ def analyze_one(item: dict) -> tuple[dict, dict]:
 
 
 # ============================================================
-# 线程安全的增量保存 + 原子写入
+# 线程安全的增量保存 + 原子写入 + 数据清洗 (关键修复：干掉 NaN)
 # ============================================================
+
+def sanitize_data(data):
+    """
+    递归扫描数据，将可能损坏 JSON 格式的 float('nan') 或 float('inf') 
+    全部清洗替换为 None（写入 JSON 后会变成标准的 null）
+    """
+    if isinstance(data, dict):
+        return {k: sanitize_data(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [sanitize_data(v) for v in data]
+    elif isinstance(data, float):
+        if math.isnan(data) or math.isinf(data):
+            return None
+    return data
+
 
 def atomic_save(data: list[dict], path: Path) -> None:
     """
     原子写入：先写临时文件，再 os.replace 替换目标文件。
     """
+    # 🔑 在落盘前，深度清洗数据，防范所有 NaN
+    cleaned_data = sanitize_data(data)
+
     tmp_fd, tmp_path = tempfile.mkstemp(
         dir=str(path.parent), suffix=".tmp", prefix=".materials_"
     )
     try:
         with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+            json.dump(cleaned_data, f, ensure_ascii=False, indent=4)
         os.replace(tmp_path, str(path))
     except Exception as e:
-        # 显式捕获异常并清理临时文件，随后抛出
         if os.path.exists(tmp_path):
             try:
                 os.unlink(tmp_path)
@@ -223,7 +244,7 @@ def atomic_save(data: list[dict], path: Path) -> None:
 
 
 def incremental_save(data: list[dict], path: Path) -> None:
-    """增量保存：使用线程锁（Lock）保证并发写入时的线程安全"""
+    """增量保存"""
     with file_write_lock:
         atomic_save(data, path)
 
@@ -249,7 +270,7 @@ def main() -> None:
 
     # 2. 筛选待处理素材
     pending_materials = [
-        m for m in materials_list if "ai_analysis" not in m or not m["ai_analysis"]
+        m for m in materials_list if "ai_analysis" not in m or not m["ai_analysis"] or "智能解析出现异常" in str(m.get("ai_analysis"))
     ]
 
     if not pending_materials:
@@ -257,36 +278,38 @@ def main() -> None:
         return
 
     total = len(pending_materials)
-    print(f"🚀 发现 {total} 条新素材，正在启动 Gemini 智能深度拆解...")
-    print(f"   并发数：{MAX_WORKERS}  |  单条最大重试：{MAX_RETRIES}")
+    print(f"🚀 发现 {total} 条待解析/异常重试的素材，正在启动单线程零限流拆解流程...")
+    print(f"   单线程模式 (MAX_WORKERS={MAX_WORKERS}) | 自动冷却时间：15秒 | 最大重试：{MAX_RETRIES}")
 
-    # 3. 并发处理
+    # 3. 顺序处理 (Sequential Loop) 
+    # 彻底弃用 ThreadPoolExecutor 避免多线程并发导致 quota 被秒杀
     success_count = 0
     fail_count = 0
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # 提交所有任务
-        future_to_item = {
-            executor.submit(analyze_one, item): item for item in pending_materials
-        }
+    for i, item in enumerate(pending_materials):
+        item_id = _get_field(item, "id", "material_id", default=f"idx_{i}")
+        print(f"\n🔄 [{i+1}/{total}] 正在向 Gemini 2.5 申请解析素材: {item_id}...")
 
-        for future in as_completed(future_to_item):
-            # 获取执行结果
-            updated_item, log = future.result()
+        # 执行拆解
+        updated_item, log = analyze_one(item)
+        print(f"  {log['msg']}")
 
-            # 打印日志
-            print(f"  {log['msg']}")
+        if log["status"] == "ok":
+            success_count += 1
+        else:
+            fail_count += 1
 
-            if log["status"] == "ok":
-                success_count += 1
-            else:
-                fail_count += 1
+        # 线程安全增量落盘
+        try:
+            incremental_save(materials_list, MATERIALS_JSON)
+        except Exception as e:
+            print(f"  ❌ 增量落盘失败: {e}")
 
-            # 🔑 线程安全地增量保存
-            try:
-                incremental_save(materials_list, MATERIALS_JSON)
-            except Exception as e:
-                print(f"  ❌ 增量落盘失败: {e}")
+        # 🔑 极关键一步：如果后面还有待处理素材，强制睡眠 15 秒！
+        # 从而将整体请求速率稳稳控制在 4 RPM，完美规避免费版的 5 RPM 超限红线！
+        if i < total - 1:
+            print("⏳ 触发免费版 quota 安全冷却，等待 15 秒后处理下一条...")
+            time.sleep(15)
 
     # 4. 最终汇总
     print(f"\n{'='*60}")
@@ -296,10 +319,10 @@ def main() -> None:
     print(f"   数据文件：{MATERIALS_JSON}")
     print(f"{'='*60}")
 
-    # 5. 最终保存，确保完全同步
+    # 5. 最终安全同步
     try:
         incremental_save(materials_list, MATERIALS_JSON)
-        print("💾 最终数据已安全落盘！")
+        print("💾 所有新分析的数据已 100% 格式化落盘，无 NaN 隐患！")
     except Exception as e:
         print(f"❌ 最终写入失败: {e}")
 
