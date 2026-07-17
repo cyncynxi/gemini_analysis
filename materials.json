@@ -1,89 +1,402 @@
-
-    {
-  "video_summary": "一款过膝折叠保温泡脚桶的信息流带货广告，以「场景钩子+四不要四要选购避坑+赠品促单」经典结构，用老板娘IP和厂家周年大促人设推动转化",
-
-  "golden_5_structure": {
-    "hook": {
-      "time_range": "0-3s",
-      "content": "画面：身穿运动装的年轻女性坐在便携泡脚桶前泡脚，桶内水带红色（泡脚包），背景有蒸汽烟雾效果和暖光晕。字幕：「便捷式保温泡脚桶」「我还是第一次见这种可以护到膝盖的」。语音：「如果你爱泡脚，那你可以试试它」",
-      "technique": "场景钩子+好奇心悬念——用「护到膝盖」这个反常规卖点制造信息差，让观众产生「泡脚桶还能护膝？」的好奇",
-      "effectiveness": "强——3秒内同时呈现使用场景+反常识卖点+产品名称，信息密度高，悬念感足"
-    },
-    "pain_point": {
-      "time_range": "3-10s",
-      "content": "画面切到产品全貌，左上角标注「【爆款】过膝折叠泡脚桶」，核心卖点字幕：折叠收纳/铝箔保温/呵护双脚/熏蒸泡三合一。语音：「从现在到三伏天，每天睡前要做的事情就是泡脚，不过这样泡脚是没有意义的，还得用上它」「与人三伏天一直泡脚会发生什么呢」",
-      "target_audience": "有泡脚习惯但用普通盆/桶的人群，三伏天养生需求人群",
-      "scenario": "睡前日常泡脚场景，锚定夏季三伏天养生时段",
-      "effectiveness": "中——用「这样泡脚是没有意义的」否定现有行为制造痛点，但痛点表达偏弱，没有具体展示普通泡脚桶的缺陷画面"
-    },
-    "solution": {
-      "time_range": "10-25s",
-      "content": "画面：人物坐在沙发上使用泡脚桶，字幕「那还叫泡脚吗」质疑传统泡脚方式；随后演示拉链设计「咱再把拉链这么一拉」，展示蓝色桶身折叠收纳。画面右上角持续标注「热卖」标签。语音在此段为空白（纯视觉演示）",
-      "trust_signals": ["「爆款」标签背书", "「热卖」角标持续展示", "厂家直供人设（后续语音提及）"],
-      "effectiveness": "中——用反问句「那还叫泡脚吗」制造认知冲突，拉链演示直观展示折叠卖点，但缺少权威背书和工厂溯源画面"
-    },
-    "demonstration": {
-      "time_range": "25-106s",
-      "content": "此段为视频核心，采用「四不要四要」对比结构进行选购避坑演示：第一不要笨重大桶→要小便鞋（省水）；第二不要不稳易倒→要防倾设计（装水摇晃不倒）；第三不要老师泡脚桶（不保温）→要五层加高铝箔保温（拉链密封）；第四不要去足运点（一次好几百）→要能重复使用的。穿插家庭多人使用场景、老人使用、小孩使用画面。语音提到「我妈泡了一段时间，我爸自己也想买一个」「聪明的媳妇早就在家用上了」「就像每天给腿蒸桑拿一样」。约36-42秒处切入促单铺垫：「今天厂家周年大促，老板娘带着泡脚桶的超级福利来了，现在下单就送三十袋泡脚包和七天免费使用」",
-      "techniques": ["四不要四要对比法（避坑式选购指南）", "家庭成员证言（妈妈/爸爸/媳妇）", "场景多角色切换（老人/小孩/全家）", "价格锚定（足疗店好几百 vs 这款重复使用）", "赠品叠加促单（30袋泡脚包+7天免费试用）"],
-      "scene_count": "8+（沙发泡脚、拉链演示、折叠展示、老人使用、小孩使用、全家场景、产品特写、促单画面）",
-      "effectiveness": "强——「四不要四要」结构是信息流广告经典爆量公式，每一条都制造「你买错了」的焦虑再给出正确答案，对比演示画面直观，节奏紧凑"
-    },
-    "cta": {
-      "time_range": "106-127s",
-      "content": "画面持续展示产品使用场景，「爆款过膝折叠泡脚桶」字幕全程挂载。语音：「就是这款保温泡脚桶，再用了一段时间真是后悔没有早点买。它采用铝箔保温材质，五层加厚锁温，加高加深防倾鞋的设计，泡脚的同时还能给腿部熏蒸桑拿。接下来我告诉你一个好消息，说出来你可能不信，今天下单就送三十袋泡脚包，自己泡舒服了，别忘了给父母也带上一个，千万不要错过了」",
-      "cta_type": "赠品促单+情感倒逼（给父母也带上）+稀缺暗示（千万不要错过）",
-      "effectiveness": "强——三重促单叠加：①赠品（30袋泡脚包）②情感绑架（给父母带一个）③稀缺暗示（千万不要错过），但缺少明确价格和限时倒计时"
-    }
+[
+  {
+    "id": "material_001",
+    "celeb": "初代",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqaz6aabjiakmoriabvbw5aet52adh2a.f0.mp4",
+    "description": "#1 [居家日用] 初代 | 消耗19.2万 CVR18.9%",
+    "ai_analysis": null
   },
-
-  "structure_flow": "钩子(场景+好奇心) → 痛点(否定现状) → 解药(反问+演示) → 演示(四不要四要避坑+多场景证言) → 收尾(赠品+情感+稀缺) —— 节奏完整，五段齐全，演示段占比最大（约65%），符合信息流长视频结构规律",
-
-  "key_features": [
-    "「四不要四要」避坑选购框架——每条先否定竞品再给出正确选择，制造焦虑+提供解药",
-    "「护到膝盖」反常规卖点作为开场钩子，制造信息差好奇心",
-    "多角色家庭证言（妈妈/爸爸/媳妇/小孩），用家庭场景降低广告防御心理",
-    "价格锚定技巧——用足疗店「一次好几百」对比「能重复使用」拉高性价比感知",
-    "三重促单叠加——赠品（30袋泡脚包）+情感绑架（给父母带）+稀缺暗示（不要错过）",
-    "全程「热卖」「爆款」标签持续挂载，营造从众效应"
-  ],
-
-  "script_type": "机制诱饵类+场景演绎类混合——以「四不要四要」选购避坑机制为核心骨架，穿插多角色家庭场景演绎证言",
-
-  "overall_assessment": {
-    "strengths": [
-      "「四不要四要」结构经典且高效，每条对比都自带焦虑驱动，转化逻辑闭环",
-      "开场「护到膝盖」钩子有信息差，3秒留存能力强",
-      "演示段场景丰富（8+次切换），老人/小孩/全家覆盖面广，拓宽人群",
-      "价格锚定（足疗店好几百 vs 重复使用）有效拉高性价比感知",
-      "促单段三重叠加（赠品+情感+稀缺），临门一脚力度足"
-    ],
-    "weaknesses": [
-      "痛点段（3-10s）偏弱，只用语音否定「这样泡脚没有意义」但无画面对比展示普通桶缺陷",
-      "缺少明确的数字价格展示，全程未出现具体售价，降低了价格冲击力",
-      "无工厂溯源/质检报告/权威背书画面，信任构建偏弱，主要靠「厂家直供」人设",
-      "语音转录质量一般（可能方言口音），部分关键卖点文案被吞字（如「铝箔」转成「旅步」、「防倾」转成「轻鞋」）",
-      "10-25秒解药段无语音（纯画面），信息传递靠字幕，可能流失听觉注意型用户",
-      "「七天免费试用」这个强卖点只在演示段一句话带过，收尾段未重复强化"
-    ],
-    "optimization_suggestions": [
-      "痛点段增加对比画面：左边普通塑料桶水很快就凉/搬不动，右边本品保温/折叠，用视觉对比替代纯语音否定",
-      "在促单段或画面角标明确标出价格（如「厂家直供价 ¥XX」），数字锚点比文字更有冲击力",
-      "增加5-10秒工厂流水线或质检画面，补强信任段，尤其适合日用百货类目",
-      "将「七天免费试用」在收尾段重复一次，与赠品叠加形成「试用+赠品+不满意退」三保险",
-      "10-25秒解药段补充语音旁白，避免纯字幕演示流失听觉用户",
-      "收尾段增加限时倒计时元素（如「周年大促最后XX小时」），强化稀缺感"
-    ]
+  {
+    "id": "material_002",
+    "celeb": "张琦",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oaas2aaby4ah7isx4vvbw4aefvyaclka.f0.mp4",
+    "description": "#2 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗12.5万 CVR13.3%",
+    "ai_analysis": null
   },
-
-  "metadata": {
-    "source_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53jqadqaaahaacru2fpfvbwtaehbgaaoca.f0.mp4",
-    "video_duration": "2:07 (127.6s)",
-    "resolution": "1080x1920 (竖屏9:16)",
-    "fps": 30,
-    "file_size": "152.4 MB",
-    "cat2": "日用百货/泡脚桶",
-    "analyzed_at": "2026-07-17",
-    "analysis_method": "关键帧OCR(15帧) + Whisper语音转录 + 人工黄金5段式拆解"
+  {
+    "id": "material_003",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqataaabbyag2ecvlvvbw3aegbwacmca.f0.mp4",
+    "description": "#3 [居家日用] 广州星之凯 | 消耗12.0万 CVR10.7%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_004",
+    "celeb": "初代",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajyaaakmaj47spkzvbuiaetqqabhca.f0.mp4",
+    "description": "#4 [居家日用] 初代 | 消耗11.4万 CVR16.2%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_005",
+    "celeb": "岳峨",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53vmatqaabn4aehh2vlbvbxkyehcvqcoca.f0.mp4",
+    "description": "#5 [居家日用] 上海岳峨 | 消耗10.3万 CVR24.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_006",
+    "celeb": "张琦",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53ueacoaaakiaewz2uqvvbviiee6qqaj2a.f0.mp4",
+    "description": "#6 [居家日用] 广州星之凯 ⭐张琦 | 消耗8.8万 CVR15.2%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_007",
+    "celeb": "六只企鹅",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53yuaasaabqyah5aixgzvbxkaef7sacmka.f0.mp4",
+    "description": "#7 [厨具] 六只企鹅 | 消耗8.7万 CVR10.3%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_008",
+    "celeb": "张琦",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahgysxgjvbxkqeeeyqajka.f0.mp4",
+    "description": "#8 [居家日用] 广州星之凯 ⭐张琦 | 消耗8.5万 CVR15.1%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_009",
+    "celeb": "图浅商贸",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beajmaaakaaj7esxtzvbwrqeqq4abmca.f0.mp4",
+    "description": "#9 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗8.4万 CVR13.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_010",
+    "celeb": "初代",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqajaaba3yagbgsxcvvbu6aegywacgqa.f0.mp4",
+    "description": "#10 [居家日用] 初代 | 消耗8.3万 CVR16.3%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_011",
+    "celeb": "初代",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas2aab3iaezcuxobvbw2aefi2achka.f0.mp4",
+    "description": "#11 [居家日用] 初代 | 消耗8.0万 CVR16.9%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_012",
+    "celeb": "六只企鹅",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53juaasaabmyah4msxlzvbxyaef6oacmka.f0.mp4",
+    "description": "#12 [厨具] 六只企鹅 | 消耗7.4万 CVR9.4%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_013",
+    "celeb": "初代",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas2aabqmaeyauxzvvbxkaefi2achca.f0.mp4",
+    "description": "#13 [居家日用] 初代 | 消耗7.1万 CVR17.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_014",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beas6aabpyaezqsxevvbwbaefi2acg2a.f0.mp4",
+    "description": "#14 [居家日用] 广州星之凯 | 消耗6.8万 CVR11.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_015",
+    "celeb": "经典剪辑",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beajgaabmuajv2uxdzvbuxqepsracgqa.f0.mp4",
+    "description": "#15 [厨具] 六只企鹅 ⭐大向 | 消耗6.8万 CVR11.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_016",
+    "celeb": "六只企鹅",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeasaaabs4ah62sxevvbwnaeftcacmka.f0.mp4",
+    "description": "#16 [厨具] 六只企鹅 | 消耗6.7万 CVR10.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_017",
+    "celeb": "经典剪辑",
+    "cat2": "收纳整理",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53e4atgaabymaeqesxmzvbxqqegepacoca.f0.mp4",
+    "description": "#17 [收纳整理] 上海岳峨 ⭐张琦 | 消耗6.4万 CVR13.6%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_018",
+    "celeb": "初代",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3jmajoaaa4iajgasxhvvbvtqesraabmca.f0.mp4",
+    "description": "#18 [居家日用] 初代 | 消耗6.3万 CVR15.9%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_019",
+    "celeb": "经典剪辑",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaacaaajmajobuxtpvbvfqeqwqabhca.f0.mp4",
+    "description": "#19 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗6.0万 CVR13.1%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_020",
+    "celeb": "经典剪辑",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neaj4aaahmajekuxzvvbvvqesroacmca.f0.mp4",
+    "description": "#20 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗6.0万 CVR13.4%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_021",
+    "celeb": "经典剪辑",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacaaabgyaervux6zvbxuqeevvacgea.f0.mp4",
+    "description": "#21 [居家日用] 广州星之凯 ⭐张琦 | 消耗5.7万 CVR14.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_022",
+    "celeb": "经典剪辑",
+    "cat2": "家纺",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeacaaab5yaezasxzvvbwfaefi2acgka.f0.mp4",
+    "description": "#22 [家纺] 广州星之凯 | 消耗5.7万 CVR11.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_023",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeasgaabtyah56uxczvbwdaeft6acgka.f0.mp4",
+    "description": "#23 [居家日用] 广州星之凯 | 消耗5.6万 CVR10.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_024",
+    "celeb": "经典剪辑",
+    "cat2": "收纳整理",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53e4asqaabtyae3euvmbvbxkyeevcqcoga.f0.mp4",
+    "description": "#24 [收纳整理] 上海岳峨 ⭐张琦 | 消耗5.6万 CVR14.1%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_025",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nmatqaaakyaeveupzvbvvyqeeyvacgca.f0.mp4",
+    "description": "#25 [居家日用] 广州星之凯 | 消耗5.5万 CVR10.9%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_026",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neaamaaaoeajb4spkzvbujqet7yabhca.f0.mp4",
+    "description": "#26 [居家日用] 广州星之凯 | 消耗5.3万 CVR10.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_027",
+    "celeb": "六只企鹅",
+    "cat2": "厨房配件",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53huaasaabkyah3csxjvvbxcaef4cacmka.f0.mp4",
+    "description": "#27 [厨房配件] 六只企鹅 | 消耗5.2万 CVR10.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_028",
+    "celeb": "六只企鹅",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53muaasaabmyah4esxpzvbxyqef6yacmka.f0.mp4",
+    "description": "#28 [厨具] 六只企鹅 | 消耗5.0万 CVR10.1%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_029",
+    "celeb": "经典剪辑",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqataaabbuaevkuvmbvbxeyeetcqchca.f0.mp4",
+    "description": "#29 [厨具] 六只企鹅 ⭐大向 | 消耗5.0万 CVR11.3%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_030",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahyysxtpvbxdqeeyyqajka.f0.mp4",
+    "description": "#30 [餐具] 广州星之凯 ⭐张琦 | 消耗4.8万 CVR15.3%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_031",
+    "celeb": "星之凯",
+    "cat2": "家纺",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeacaaabtyaeziuxmbvbwdqeevcqchka.f0.mp4",
+    "description": "#31 [家纺] 广州星之凯 | 消耗4.8万 CVR11.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_032",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqaakaaapiaer2ux6vvbxuaefi2acgka.f0.mp4",
+    "description": "#32 [餐具] 广州星之凯 ⭐张琦 | 消耗4.7万 CVR15.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_033",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neajyaaaueajeasxlzvbuueet7yabmca.f0.mp4",
+    "description": "#33 [居家日用] 广州星之凯 | 消耗4.7万 CVR11.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_034",
+    "celeb": "经典剪辑",
+    "cat2": "厨具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas6aabkmaezqsxzvvbwaaefi2acg2a.f0.mp4",
+    "description": "#34 [厨具] 六只企鹅 ⭐大向 | 消耗4.6万 CVR11.9%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_035",
+    "celeb": "经典剪辑",
+    "cat2": "家饰",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nmat2aaapiaetmuvmpvbyiqeetqachca.f0.mp4",
+    "description": "#35 [家饰] 广州星之凯 ⭐张琦 | 消耗4.5万 CVR14.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_036",
+    "celeb": "六只企鹅",
+    "cat2": "厨房配件",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53guaasaabmyah4msxzvvbxyaef6oacmka.f0.mp4",
+    "description": "#36 [厨房配件] 六只企鹅 | 消耗4.4万 CVR10.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_037",
+    "celeb": "经典剪辑",
+    "cat2": "家纺",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3heaacaaapkaehysxvpvbxuqeeyvacgea.f0.mp4",
+    "description": "#37 [家纺] 广州星之凯 ⭐张琦 | 消耗4.4万 CVR15.2%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_038",
+    "celeb": "经典剪辑",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53vmatqaabnyaehhuxobvbxeyehcvqcoaa.f0.mp4",
+    "description": "#38 [居家日用] 上海岳峨 ⭐张琦 | 消耗4.4万 CVR14.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_039",
+    "celeb": "星之凯",
+    "cat2": "家饰",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaaoaaakiaersup7vvbxqiiee6qajca.f0.mp4",
+    "description": "#39 [家饰] 广州星之凯 | 消耗4.2万 CVR11.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_040",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahyesxlzvbxqaef6oacmka.f0.mp4",
+    "description": "#40 [餐具] 广州星之凯 ⭐张琦 | 消耗4.2万 CVR15.3%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_041",
+    "celeb": "星之凯",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaaoaajeesxtpvbygqeqq4abmca.f0.mp4",
+    "description": "#41 [居家日用] 广州星之凯 | 消耗4.0万 CVR10.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_042",
+    "celeb": "经典剪辑",
+    "cat2": "居家日用",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53ueatgaabpmae6asxlzvbykqeeyqacgqa.f0.mp4",
+    "description": "#42 [居家日用] 上海岳峨 ⭐张琦 | 消耗4.0万 CVR14.4%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_043",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqas2aabniaezesx2vvbviaeeevqachka.f0.mp4",
+    "description": "#43 [餐具] 广州星之凯 ⭐张琦 | 消耗3.9万 CVR14.9%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_044",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqaakaaagiaeziuxobvbxyaeevcqchea.f0.mp4",
+    "description": "#44 [餐具] 广州星之凯 ⭐张琦 | 消耗3.8万 CVR15.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_045",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaamaaapkaeeasxpzvbxuqet7yacgqa.f0.mp4",
+    "description": "#45 [餐具] 广州星之凯 ⭐张琦 | 消耗3.7万 CVR14.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_046",
+    "celeb": "经典剪辑",
+    "cat2": "家饰",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaaliaerksxbvvbxuiie6yqajca.f0.mp4",
+    "description": "#46 [家饰] 广州星之凯 ⭐张琦 | 消耗3.7万 CVR14.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_047",
+    "celeb": "星之凯",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaakaaaawiaeevspvpvbycqeetqachca.f0.mp4",
+    "description": "#47 [餐具] 广州星之凯 | 消耗3.7万 CVR11.0%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_048",
+    "celeb": "经典剪辑",
+    "cat2": "家饰",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3heaaeaaakaaerksxdzvbyfqeq4yacgqa.f0.mp4",
+    "description": "#48 [家饰] 广州星之凯 ⭐张琦 | 消耗3.6万 CVR14.5%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_049",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaacaaaomaeeksxpzvbygqet7yacgca.f0.mp4",
+    "description": "#49 [餐具] 广州星之凯 ⭐张琦 | 消耗3.6万 CVR14.8%",
+    "ai_analysis": null
+  },
+  {
+    "id": "material_050",
+    "celeb": "经典剪辑",
+    "cat2": "餐具",
+    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaapiaeeasxpzvbxqqeetqacgea.f0.mp4",
+    "description": "#50 [餐具] 广州星之凯 ⭐张琦 | 消耗3.5万 CVR15.0%",
+    "ai_analysis": null
   }
-}
+]
