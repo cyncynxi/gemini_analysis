@@ -1,402 +1,1002 @@
 [
-  {
-    "id": "material_001",
-    "celeb": "初代",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqaz6aabjiakmoriabvbw5aet52adh2a.f0.mp4",
-    "description": "#1 [居家日用] 初代 | 消耗19.2万 CVR18.9%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_002",
-    "celeb": "张琦",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oaas2aaby4ah7isx4vvbw4aefvyaclka.f0.mp4",
-    "description": "#2 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗12.5万 CVR13.3%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_003",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqataaabbyag2ecvlvvbw3aegbwacmca.f0.mp4",
-    "description": "#3 [居家日用] 广州星之凯 | 消耗12.0万 CVR10.7%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_004",
-    "celeb": "初代",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajyaaakmaj47spkzvbuiaetqqabhca.f0.mp4",
-    "description": "#4 [居家日用] 初代 | 消耗11.4万 CVR16.2%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_005",
-    "celeb": "岳峨",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53vmatqaabn4aehh2vlbvbxkyehcvqcoca.f0.mp4",
-    "description": "#5 [居家日用] 上海岳峨 | 消耗10.3万 CVR24.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_006",
-    "celeb": "张琦",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53ueacoaaakiaewz2uqvvbviiee6qqaj2a.f0.mp4",
-    "description": "#6 [居家日用] 广州星之凯 ⭐张琦 | 消耗8.8万 CVR15.2%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_007",
-    "celeb": "六只企鹅",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53yuaasaabqyah5aixgzvbxkaef7sacmka.f0.mp4",
-    "description": "#7 [厨具] 六只企鹅 | 消耗8.7万 CVR10.3%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_008",
-    "celeb": "张琦",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahgysxgjvbxkqeeeyqajka.f0.mp4",
-    "description": "#8 [居家日用] 广州星之凯 ⭐张琦 | 消耗8.5万 CVR15.1%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_009",
-    "celeb": "图浅商贸",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beajmaaakaaj7esxtzvbwrqeqq4abmca.f0.mp4",
-    "description": "#9 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗8.4万 CVR13.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_010",
-    "celeb": "初代",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqajaaba3yagbgsxcvvbu6aegywacgqa.f0.mp4",
-    "description": "#10 [居家日用] 初代 | 消耗8.3万 CVR16.3%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_011",
-    "celeb": "初代",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas2aab3iaezcuxobvbw2aefi2achka.f0.mp4",
-    "description": "#11 [居家日用] 初代 | 消耗8.0万 CVR16.9%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_012",
-    "celeb": "六只企鹅",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53juaasaabmyah4msxlzvbxyaef6oacmka.f0.mp4",
-    "description": "#12 [厨具] 六只企鹅 | 消耗7.4万 CVR9.4%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_013",
-    "celeb": "初代",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas2aabqmaeyauxzvvbxkaefi2achca.f0.mp4",
-    "description": "#13 [居家日用] 初代 | 消耗7.1万 CVR17.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_014",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beas6aabpyaezqsxevvbwbaefi2acg2a.f0.mp4",
-    "description": "#14 [居家日用] 广州星之凯 | 消耗6.8万 CVR11.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_015",
-    "celeb": "经典剪辑",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beajgaabmuajv2uxdzvbuxqepsracgqa.f0.mp4",
-    "description": "#15 [厨具] 六只企鹅 ⭐大向 | 消耗6.8万 CVR11.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_016",
-    "celeb": "六只企鹅",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeasaaabs4ah62sxevvbwnaeftcacmka.f0.mp4",
-    "description": "#16 [厨具] 六只企鹅 | 消耗6.7万 CVR10.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_017",
-    "celeb": "经典剪辑",
-    "cat2": "收纳整理",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53e4atgaabymaeqesxmzvbxqqegepacoca.f0.mp4",
-    "description": "#17 [收纳整理] 上海岳峨 ⭐张琦 | 消耗6.4万 CVR13.6%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_018",
-    "celeb": "初代",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3jmajoaaa4iajgasxhvvbvtqesraabmca.f0.mp4",
-    "description": "#18 [居家日用] 初代 | 消耗6.3万 CVR15.9%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_019",
-    "celeb": "经典剪辑",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaacaaajmajobuxtpvbvfqeqwqabhca.f0.mp4",
-    "description": "#19 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗6.0万 CVR13.1%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_020",
-    "celeb": "经典剪辑",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neaj4aaahmajekuxzvvbvvqesroacmca.f0.mp4",
-    "description": "#20 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗6.0万 CVR13.4%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_021",
-    "celeb": "经典剪辑",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacaaabgyaervux6zvbxuqeevvacgea.f0.mp4",
-    "description": "#21 [居家日用] 广州星之凯 ⭐张琦 | 消耗5.7万 CVR14.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_022",
-    "celeb": "经典剪辑",
-    "cat2": "家纺",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeacaaab5yaezasxzvvbwfaefi2acgka.f0.mp4",
-    "description": "#22 [家纺] 广州星之凯 | 消耗5.7万 CVR11.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_023",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeasgaabtyah56uxczvbwdaeft6acgka.f0.mp4",
-    "description": "#23 [居家日用] 广州星之凯 | 消耗5.6万 CVR10.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_024",
-    "celeb": "经典剪辑",
-    "cat2": "收纳整理",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53e4asqaabtyae3euvmbvbxkyeevcqcoga.f0.mp4",
-    "description": "#24 [收纳整理] 上海岳峨 ⭐张琦 | 消耗5.6万 CVR14.1%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_025",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nmatqaaakyaeveupzvbvvyqeeyvacgca.f0.mp4",
-    "description": "#25 [居家日用] 广州星之凯 | 消耗5.5万 CVR10.9%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_026",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neaamaaaoeajb4spkzvbujqet7yabhca.f0.mp4",
-    "description": "#26 [居家日用] 广州星之凯 | 消耗5.3万 CVR10.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_027",
-    "celeb": "六只企鹅",
-    "cat2": "厨房配件",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53huaasaabkyah3csxjvvbxcaef4cacmka.f0.mp4",
-    "description": "#27 [厨房配件] 六只企鹅 | 消耗5.2万 CVR10.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_028",
-    "celeb": "六只企鹅",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53muaasaabmyah4esxpzvbxyqef6yacmka.f0.mp4",
-    "description": "#28 [厨具] 六只企鹅 | 消耗5.0万 CVR10.1%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_029",
-    "celeb": "经典剪辑",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqataaabbuaevkuvmbvbxeyeetcqchca.f0.mp4",
-    "description": "#29 [厨具] 六只企鹅 ⭐大向 | 消耗5.0万 CVR11.3%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_030",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahyysxtpvbxdqeeyyqajka.f0.mp4",
-    "description": "#30 [餐具] 广州星之凯 ⭐张琦 | 消耗4.8万 CVR15.3%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_031",
-    "celeb": "星之凯",
-    "cat2": "家纺",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeacaaabtyaeziuxmbvbwdqeevcqchka.f0.mp4",
-    "description": "#31 [家纺] 广州星之凯 | 消耗4.8万 CVR11.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_032",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqaakaaapiaer2ux6vvbxuaefi2acgka.f0.mp4",
-    "description": "#32 [餐具] 广州星之凯 ⭐张琦 | 消耗4.7万 CVR15.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_033",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neajyaaaueajeasxlzvbuueet7yabmca.f0.mp4",
-    "description": "#33 [居家日用] 广州星之凯 | 消耗4.7万 CVR11.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_034",
-    "celeb": "经典剪辑",
-    "cat2": "厨具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas6aabkmaezqsxzvvbwaaefi2acg2a.f0.mp4",
-    "description": "#34 [厨具] 六只企鹅 ⭐大向 | 消耗4.6万 CVR11.9%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_035",
-    "celeb": "经典剪辑",
-    "cat2": "家饰",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nmat2aaapiaetmuvmpvbyiqeetqachca.f0.mp4",
-    "description": "#35 [家饰] 广州星之凯 ⭐张琦 | 消耗4.5万 CVR14.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_036",
-    "celeb": "六只企鹅",
-    "cat2": "厨房配件",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53guaasaabmyah4msxzvvbxyaef6oacmka.f0.mp4",
-    "description": "#36 [厨房配件] 六只企鹅 | 消耗4.4万 CVR10.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_037",
-    "celeb": "经典剪辑",
-    "cat2": "家纺",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3heaacaaapkaehysxvpvbxuqeeyvacgea.f0.mp4",
-    "description": "#37 [家纺] 广州星之凯 ⭐张琦 | 消耗4.4万 CVR15.2%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_038",
-    "celeb": "经典剪辑",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53vmatqaabnyaehhuxobvbxeyehcvqcoaa.f0.mp4",
-    "description": "#38 [居家日用] 上海岳峨 ⭐张琦 | 消耗4.4万 CVR14.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_039",
-    "celeb": "星之凯",
-    "cat2": "家饰",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaaoaaakiaersup7vvbxqiiee6qajca.f0.mp4",
-    "description": "#39 [家饰] 广州星之凯 | 消耗4.2万 CVR11.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_040",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahyesxlzvbxqaef6oacmka.f0.mp4",
-    "description": "#40 [餐具] 广州星之凯 ⭐张琦 | 消耗4.2万 CVR15.3%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_041",
-    "celeb": "星之凯",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaaoaajeesxtpvbygqeqq4abmca.f0.mp4",
-    "description": "#41 [居家日用] 广州星之凯 | 消耗4.0万 CVR10.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_042",
-    "celeb": "经典剪辑",
-    "cat2": "居家日用",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53ueatgaabpmae6asxlzvbykqeeyqacgqa.f0.mp4",
-    "description": "#42 [居家日用] 上海岳峨 ⭐张琦 | 消耗4.0万 CVR14.4%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_043",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqas2aabniaezesx2vvbviaeeevqachka.f0.mp4",
-    "description": "#43 [餐具] 广州星之凯 ⭐张琦 | 消耗3.9万 CVR14.9%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_044",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqaakaaagiaeziuxobvbxyaeevcqchea.f0.mp4",
-    "description": "#44 [餐具] 广州星之凯 ⭐张琦 | 消耗3.8万 CVR15.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_045",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaamaaapkaeeasxpzvbxuqet7yacgqa.f0.mp4",
-    "description": "#45 [餐具] 广州星之凯 ⭐张琦 | 消耗3.7万 CVR14.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_046",
-    "celeb": "经典剪辑",
-    "cat2": "家饰",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaaliaerksxbvvbxuiie6yqajca.f0.mp4",
-    "description": "#46 [家饰] 广州星之凯 ⭐张琦 | 消耗3.7万 CVR14.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_047",
-    "celeb": "星之凯",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaakaaaawiaeevspvpvbycqeetqachca.f0.mp4",
-    "description": "#47 [餐具] 广州星之凯 | 消耗3.7万 CVR11.0%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_048",
-    "celeb": "经典剪辑",
-    "cat2": "家饰",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3heaaeaaakaaerksxdzvbyfqeq4yacgqa.f0.mp4",
-    "description": "#48 [家饰] 广州星之凯 ⭐张琦 | 消耗3.6万 CVR14.5%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_049",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaacaaaomaeeksxpzvbygqet7yacgca.f0.mp4",
-    "description": "#49 [餐具] 广州星之凯 ⭐张琦 | 消耗3.6万 CVR14.8%",
-    "ai_analysis": null
-  },
-  {
-    "id": "material_050",
-    "celeb": "经典剪辑",
-    "cat2": "餐具",
-    "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaapiaeeasxpzvbxqqeetqacgea.f0.mp4",
-    "description": "#50 [餐具] 广州星之凯 ⭐张琦 | 消耗3.5万 CVR15.0%",
-    "ai_analysis": null
-  }
+    {
+        "id": "material_001",
+        "celeb": "初代",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqaz6aabjiakmoriabvbw5aet52adh2a.f0.mp4",
+        "description": "#1 [居家日用] 初代 | 消耗19.2万 CVR18.9%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_002",
+        "celeb": "张琦",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oaas2aaby4ah7isx4vvbw4aefvyaclka.f0.mp4",
+        "description": "#2 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗12.5万 CVR13.3%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_003",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqataaabbyag2ecvlvvbw3aegbwacmca.f0.mp4",
+        "description": "#3 [居家日用] 广州星之凯 | 消耗12.0万 CVR10.7%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_004",
+        "celeb": "初代",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajyaaakmaj47spkzvbuiaetqqabhca.f0.mp4",
+        "description": "#4 [居家日用] 初代 | 消耗11.4万 CVR16.2%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_005",
+        "celeb": "岳峨",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53vmatqaabn4aehh2vlbvbxkyehcvqcoca.f0.mp4",
+        "description": "#5 [居家日用] 上海岳峨 | 消耗10.3万 CVR24.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 45.55308134s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 45\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_006",
+        "celeb": "张琦",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53ueacoaaakiaewz2uqvvbviiee6qqaj2a.f0.mp4",
+        "description": "#6 [居家日用] 广州星之凯 ⭐张琦 | 消耗8.8万 CVR15.2%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_007",
+        "celeb": "六只企鹅",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53yuaasaabqyah5aixgzvbxkaef7sacmka.f0.mp4",
+        "description": "#7 [厨具] 六只企鹅 | 消耗8.7万 CVR10.3%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_008",
+        "celeb": "张琦",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahgysxgjvbxkqeeeyqajka.f0.mp4",
+        "description": "#8 [居家日用] 广州星之凯 ⭐张琦 | 消耗8.5万 CVR15.1%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 403 Your project has been denied access. Please contact support.",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_009",
+        "celeb": "图浅商贸",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beajmaaakaaj7esxtzvbwrqeqq4abmca.f0.mp4",
+        "description": "#9 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗8.4万 CVR13.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 59.665482345s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 59\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_010",
+        "celeb": "初代",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqajaaba3yagbgsxcvvbu6aegywacgqa.f0.mp4",
+        "description": "#10 [居家日用] 初代 | 消耗8.3万 CVR16.3%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.284729085s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_011",
+        "celeb": "初代",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas2aab3iaezcuxobvbw2aefi2achka.f0.mp4",
+        "description": "#11 [居家日用] 初代 | 消耗8.0万 CVR16.9%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 6.935726629s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 6\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_012",
+        "celeb": "六只企鹅",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53juaasaabmyah4msxlzvbxyaef6oacmka.f0.mp4",
+        "description": "#12 [厨具] 六只企鹅 | 消耗7.4万 CVR9.4%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 40.570731331s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 40\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_013",
+        "celeb": "初代",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas2aabqmaeyauxzvvbxkaefi2achca.f0.mp4",
+        "description": "#13 [居家日用] 初代 | 消耗7.1万 CVR17.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.207695655s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_014",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beas6aabpyaezqsxevvbwbaefi2acg2a.f0.mp4",
+        "description": "#14 [居家日用] 广州星之凯 | 消耗6.8万 CVR11.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.817753627s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 47\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_015",
+        "celeb": "经典剪辑",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beajgaabmuajv2uxdzvbuxqepsracgqa.f0.mp4",
+        "description": "#15 [厨具] 六只企鹅 ⭐大向 | 消耗6.8万 CVR11.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 21.441125109s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_016",
+        "celeb": "六只企鹅",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeasaaabs4ah62sxevvbwnaeftcacmka.f0.mp4",
+        "description": "#16 [厨具] 六只企鹅 | 消耗6.7万 CVR10.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.059495023s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_017",
+        "celeb": "经典剪辑",
+        "cat2": "收纳整理",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53e4atgaabymaeqesxmzvbxqqegepacoca.f0.mp4",
+        "description": "#17 [收纳整理] 上海岳峨 ⭐张琦 | 消耗6.4万 CVR13.6%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 28.668805653s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_018",
+        "celeb": "初代",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3jmajoaaa4iajgasxhvvbvtqesraabmca.f0.mp4",
+        "description": "#18 [居家日用] 初代 | 消耗6.3万 CVR15.9%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 2.288387106s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 2\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_019",
+        "celeb": "经典剪辑",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaacaaajmajobuxtpvbvfqeqwqabhca.f0.mp4",
+        "description": "#19 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗6.0万 CVR13.1%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 35.9213239s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 35\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_020",
+        "celeb": "经典剪辑",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neaj4aaahmajekuxzvvbvvqesroacmca.f0.mp4",
+        "description": "#20 [居家日用] 襄阳市图浅商贸 ⭐张琦 | 消耗6.0万 CVR13.4%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.530705258s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_021",
+        "celeb": "经典剪辑",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacaaabgyaervux6zvbxuqeevvacgea.f0.mp4",
+        "description": "#21 [居家日用] 广州星之凯 ⭐张琦 | 消耗5.7万 CVR14.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 43.152735422s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 43\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_022",
+        "celeb": "经典剪辑",
+        "cat2": "家纺",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeacaaab5yaezasxzvvbwfaefi2acgka.f0.mp4",
+        "description": "#22 [家纺] 广州星之凯 | 消耗5.7万 CVR11.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.785557422s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 16\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_023",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeasgaabtyah56uxczvbwdaeft6acgka.f0.mp4",
+        "description": "#23 [居家日用] 广州星之凯 | 消耗5.6万 CVR10.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 50.227887493s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 50\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_024",
+        "celeb": "经典剪辑",
+        "cat2": "收纳整理",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53e4asqaabtyae3euvmbvbxkyeevcqcoga.f0.mp4",
+        "description": "#24 [收纳整理] 上海岳峨 ⭐张琦 | 消耗5.6万 CVR14.1%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 23.856609023s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_025",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nmatqaaakyaeveupzvbvvyqeeyvacgca.f0.mp4",
+        "description": "#25 [居家日用] 广州星之凯 | 消耗5.5万 CVR10.9%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.504588575s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_026",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neaamaaaoeajb4spkzvbujqet7yabhca.f0.mp4",
+        "description": "#26 [居家日用] 广州星之凯 | 消耗5.3万 CVR10.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 31.135036352s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 31\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_027",
+        "celeb": "六只企鹅",
+        "cat2": "厨房配件",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53huaasaabkyah3csxjvvbxcaef4cacmka.f0.mp4",
+        "description": "#27 [厨房配件] 六只企鹅 | 消耗5.2万 CVR10.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.766290165s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 4\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_028",
+        "celeb": "六只企鹅",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53muaasaabmyah4esxpzvbxyqef6yacmka.f0.mp4",
+        "description": "#28 [厨具] 六只企鹅 | 消耗5.0万 CVR10.1%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.396138212s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 38\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_029",
+        "celeb": "经典剪辑",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqataaabbuaevkuvmbvbxeyeetcqchca.f0.mp4",
+        "description": "#29 [厨具] 六只企鹅 ⭐大向 | 消耗5.0万 CVR11.3%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 12.01447226s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 12\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_030",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahyysxtpvbxdqeeyyqajka.f0.mp4",
+        "description": "#30 [餐具] 广州星之凯 ⭐张琦 | 消耗4.8万 CVR15.3%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 45.656696088s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 45\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_031",
+        "celeb": "星之凯",
+        "cat2": "家纺",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oeacaaabtyaeziuxmbvbwdqeevcqchka.f0.mp4",
+        "description": "#31 [家纺] 广州星之凯 | 消耗4.8万 CVR11.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 19.297658926s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_032",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqaakaaapiaer2ux6vvbxuaefi2acgka.f0.mp4",
+        "description": "#32 [餐具] 广州星之凯 ⭐张琦 | 消耗4.7万 CVR15.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.918626278s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 52\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_033",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3neajyaaaueajeasxlzvbuueet7yabmca.f0.mp4",
+        "description": "#33 [居家日用] 广州星之凯 | 消耗4.7万 CVR11.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 26.562539508s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 26\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_034",
+        "celeb": "经典剪辑",
+        "cat2": "厨具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53lqas6aabkmaezqsxzvvbwaaefi2acg2a.f0.mp4",
+        "description": "#34 [厨具] 六只企鹅 ⭐大向 | 消耗4.6万 CVR11.9%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 214.316186ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_035",
+        "celeb": "经典剪辑",
+        "cat2": "家饰",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nmat2aaapiaetmuvmpvbyiqeetqachca.f0.mp4",
+        "description": "#35 [家饰] 广州星之凯 ⭐张琦 | 消耗4.5万 CVR14.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.836244789s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_036",
+        "celeb": "六只企鹅",
+        "cat2": "厨房配件",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53guaasaabmyah4msxzvvbxyaef6oacmka.f0.mp4",
+        "description": "#36 [厨房配件] 六只企鹅 | 消耗4.4万 CVR10.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 7.46450536s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 7\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_037",
+        "celeb": "经典剪辑",
+        "cat2": "家纺",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3heaacaaapkaehysxvpvbxuqeeyvacgea.f0.mp4",
+        "description": "#37 [家纺] 广州星之凯 ⭐张琦 | 消耗4.4万 CVR15.2%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 41.103245834s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 41\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_038",
+        "celeb": "经典剪辑",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53vmatqaabnyaehhuxobvbxeyehcvqcoaa.f0.mp4",
+        "description": "#38 [居家日用] 上海岳峨 ⭐张琦 | 消耗4.4万 CVR14.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.71721081s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_039",
+        "celeb": "星之凯",
+        "cat2": "家饰",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaaoaaakiaersup7vvbxqiiee6qajca.f0.mp4",
+        "description": "#39 [家饰] 广州星之凯 | 消耗4.2万 CVR11.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.324718463s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 48\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_040",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53beacosabbeahyesxlzvbxqaef6oacmka.f0.mp4",
+        "description": "#40 [餐具] 广州星之凯 ⭐张琦 | 消耗4.2万 CVR15.3%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 21.949438123s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_041",
+        "celeb": "星之凯",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaaoaajeesxtpvbygqeqq4abmca.f0.mp4",
+        "description": "#41 [居家日用] 广州星之凯 | 消耗4.0万 CVR10.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.579936729s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_042",
+        "celeb": "经典剪辑",
+        "cat2": "居家日用",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53ueatgaabpmae6asxlzvbykqeeyqacgqa.f0.mp4",
+        "description": "#42 [居家日用] 上海岳峨 ⭐张琦 | 消耗4.0万 CVR14.4%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 29.216515324s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 29\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_043",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0b53oqas2aabniaezesx2vvbviaeeevqachka.f0.mp4",
+        "description": "#43 [餐具] 广州星之凯 ⭐张琦 | 消耗3.9万 CVR14.9%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 2.771142432s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 2\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_044",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3nqaakaaagiaeziuxobvbxyaeevcqchea.f0.mp4",
+        "description": "#44 [餐具] 广州星之凯 ⭐张琦 | 消耗3.8万 CVR15.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 36.390943908s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 36\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_045",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaamaaapkaeeasxpzvbxuqet7yacgqa.f0.mp4",
+        "description": "#45 [餐具] 广州星之凯 ⭐张琦 | 消耗3.7万 CVR14.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.969936268s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_046",
+        "celeb": "经典剪辑",
+        "cat2": "家饰",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaaliaerksxbvvbxuiie6yqajca.f0.mp4",
+        "description": "#46 [家饰] 广州星之凯 ⭐张琦 | 消耗3.7万 CVR14.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 43.603419746s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 43\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_047",
+        "celeb": "星之凯",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaakaaaawiaeevspvpvbycqeetqachca.f0.mp4",
+        "description": "#47 [餐具] 广州星之凯 | 消耗3.7万 CVR11.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 17.226018601s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 17\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_048",
+        "celeb": "经典剪辑",
+        "cat2": "家饰",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3heaaeaaakaaerksxdzvbyfqeq4yacgqa.f0.mp4",
+        "description": "#48 [家饰] 广州星之凯 ⭐张琦 | 消耗3.6万 CVR14.5%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 50.871263863s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 50\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_049",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3beaacaaaomaeeksxpzvbygqet7yacgca.f0.mp4",
+        "description": "#49 [餐具] 广州星之凯 ⭐张琦 | 消耗3.6万 CVR14.8%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 24.49904911s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    },
+    {
+        "id": "material_050",
+        "celeb": "经典剪辑",
+        "cat2": "餐具",
+        "video_url": "https://adsmind.gdtimg.com/ads_svp_video__0bc3eaajoaaapiaeeasxpzvbxqqeetqacgea.f0.mp4",
+        "description": "#50 [餐具] 广州星之凯 ⭐张琦 | 消耗3.5万 CVR15.0%",
+        "ai_analysis": {
+            "hook_analysis": "智能解析出现异常: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 58.11681317s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 58\n}\n]",
+            "five_steps": {
+                "step1_intro": "无法解析",
+                "step2_painpoint": "无法解析",
+                "step3_display": "无法解析",
+                "step4_trust": "无法解析",
+                "step5_action": "无法解析"
+            },
+            "tags": [
+                "解析待重试"
+            ]
+        }
+    }
 ]
